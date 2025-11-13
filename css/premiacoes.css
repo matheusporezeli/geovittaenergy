@@ -1,0 +1,30 @@
+.premiacoes {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.box-award {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.658);
+    padding: 5px;
+    gap: 20px;
+    width: 23%;
+    height: 20rem;
+}
+
+.box-award i {
+    color: rgba(0, 0, 255, 0.685);
+    margin-top: 10px;
+    font-size: 1.7rem;
+}
+
+.box-award p {
+    color: rgba(0, 0, 0, 0.658);
+    margin-top: 30px;
+}
