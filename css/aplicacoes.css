@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+.aplicacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    
+=======
 .div-ap-pai{
     display: flex;
     justify-content: center;
@@ -18,4 +29,5 @@
     gap: 20px;
     width: 23%;
     height: 20rem; 
+>>>>>>> deb162297c5f672f6ef11c370a4dbdb3163979e3
 }
