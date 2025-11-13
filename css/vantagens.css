@@ -1,0 +1,17 @@
+.vantagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.cx {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid black;
+    width: 20%;
+    height: 15rem;
+}
