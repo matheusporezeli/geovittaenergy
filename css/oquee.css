@@ -1,27 +1,35 @@
 .oquee {
     background-color: gray;
-    height: 20rem;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
 }
+
 .div-pai{
-    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.titulo h2{
+    font-size: 4rem;
+}
+
+.div-lorem p{
+    font-size: 2rem;
 }
 
 .Ilustração {
     background-image: url(../imagens/ilustraçao.jpg);
-    background-position: center;
+    
     background-repeat: no-repeat;
+    background-position: center;
     height: 15rem;
+    width: 50%;
 }
 
 .div1 {
-    color: white;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
+    color: white;
+    display: flex;
     padding: 10px;
     width: 50%;
 }
