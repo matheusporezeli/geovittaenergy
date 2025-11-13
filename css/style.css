@@ -1,0 +1,38 @@
+.div-pai-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+.div-logo-header {
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.div-list-header ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div-pai-footer {
+
+display: flex;
+justify-content: space-evenly;
+padding: 1rem;
+align-items: center;
+}
+
+.div-copy {
+    display: flex;
+    justify-content: center;
+}
+
+.hr-footer {
+    margin: 25px 0px 25px 0px;
+}
