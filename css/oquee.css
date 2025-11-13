@@ -3,26 +3,26 @@
 }
 
 .div-pai{
-    justify-content: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    display: flex;
+    justify-content: center;
 }
+
 .titulo h2{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .div-lorem p{
-    font-size: 2rem;
+    font-size: 1.25rem;
 }
 
 .Ilustração {
     background-image: url(../imagens/ilustraçao.jpg);
-    
     background-repeat: no-repeat;
     background-position: center;
-    height: 15rem;
-    width: 50%;
+    height: 250px;
+    width: 85%;
 }
 
 .div1 {
@@ -31,5 +31,6 @@
     color: white;
     display: flex;
     padding: 10px;
-    width: 50%;
+    text-align: center;
+    width: 85%;
 }
