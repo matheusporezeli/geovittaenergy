@@ -1,0 +1,27 @@
+.oquee {
+    background-color: gray;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.div-pai{
+    align-items: center;
+    justify-content: center;
+}
+
+.Ilustração {
+    background-image: url(../imagens/ilustraçao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15rem;
+}
+
+.div1 {
+    color: white;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    width: 50%;
+}
