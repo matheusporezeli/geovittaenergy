@@ -9,22 +9,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.568);
+    border: 1px solid rgba(2, 2, 2, 0.486);
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.658);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.658);
+    background-color: rgba(255, 255, 255, 0.644);
     padding: 5px;
     gap: 20px;
     width: 23%;
     height: 20rem;
 }
 
-.box-award i {
-    color: rgba(0, 0, 255, 0.685);
+.box-award img {
     margin-top: 10px;
-    font-size: 1.7rem;
+    width: 20%;
+}
+
+.box-award h3{
+    font-weight: bold;
+    color: black;
+
 }
 
 .box-award p {
     color: rgba(0, 0, 0, 0.658);
-    margin-top: 30px;
+    margin-top: 25px;
 }
