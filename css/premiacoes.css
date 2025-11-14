@@ -1,3 +1,5 @@
+
+/* Titulo da premiações */
 .title-award {
     display: flex;
     justify-content: center;
@@ -7,6 +9,8 @@
     gap: 5px;
 }
 
+/* Section premiações */
+
 .premiacoes {
     display: flex;
     justify-content: center;
@@ -15,6 +19,7 @@
     gap: 20px;
 }
 
+/* minha caixa toda */
 .box-award {
     display: flex;
     flex-direction: column;
@@ -30,12 +35,13 @@
     height: 20rem;
 }
 
+/* imagem da caixa */
 .box-award img {
     margin-top: 10px;
     width: 20%;
 }
 
-
+/* paragrafo da caixa */
 .box-award p {
     color: rgba(0, 0, 0, 0.658);
     margin-top: 25px;
