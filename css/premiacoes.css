@@ -9,7 +9,7 @@
     gap: 5px;
 }
 
-/* Section premiações */
+/* Section premiações*/
 
 .premiacoes {
     display: flex;
@@ -19,7 +19,7 @@
     gap: 20px;
 }
 
-/* minha caixa toda */
+/* minha caixa toda*/
 .box-award {
     display: flex;
     flex-direction: column;
@@ -35,13 +35,13 @@
     height: 20rem;
 }
 
-/* imagem da caixa */
+/* imagem da caixa*/
 .box-award img {
     margin-top: 10px;
     width: 20%;
 }
 
-/* paragrafo da caixa */
+/* paragrafo da caixa*/
 .box-award p {
     color: rgba(0, 0, 0, 0.658);
     margin-top: 25px;
