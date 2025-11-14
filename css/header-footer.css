@@ -1,7 +1,7 @@
 footer {
     border-top: 2px solid #000;
     background-color: #7373737d;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .div-pai-header {
@@ -29,15 +29,15 @@ footer {
 }
 
 .div-pai-footer {
-
-display: flex;
-justify-content: space-evenly;
-padding: 1rem;
-align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 25px;
+    padding: 1rem;
 }
 
-.div-slogan-footer p{
-    margin-left: 7px;
+.div-slogan-footer p {
+    /* margin-left: 7px; */
     color: blue;
     font-size: 0.8rem;
 }
@@ -46,18 +46,30 @@ align-items: center;
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 0.5rem;
 }
 
 .div-filha-loga h3 {
     margin-top: 10px;
 }
 
-.div-copy {
-    display: flex;
-    justify-content: center;
+.div-link-footer {
+    border-right: 2px solid #000;
+    /* borda a direita*/
+    border-left: 2px solid #000;
+    /*borda a esquerda*/
+    padding: 0 3rem;
+    /*padding para espaçar a borda*/
 }
 
-.hr-footer {
-    margin: 25px 0px 25px 0px;
+
+.div-copy {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 15px;
 }
+
+/* .hr-footer {
+    margin: 25px 0px;
+} */
