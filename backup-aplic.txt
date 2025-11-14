@@ -1,0 +1,71 @@
+.div-ap-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 20px;
+}
+
+.ap-caixa-01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(2, 2, 2, 0.486);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.658);
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 5px;
+    gap: 20px;
+    width: 300px;
+    height: 500px; 
+}
+
+.ap-caixa-01 img{
+    width: 90%;
+    gap: 5px;
+    padding: 5px;
+}
+
+
+/*HTML*/
+
+<!--Parte do Joao-->
+        <section class="aplicacoes">
+            <div class="div-ap-pai">
+
+                <div class="ap-caixa-01">
+
+                    <h3>Geovita energy</h3>
+                    <img src="imagens/gm1.png" alt="imagem caixa 01">
+                    <p>
+                        O solo, a poucos metros de profundidade, mantém uma temperatura relativamente constante
+                        (geralmente entre 12°C e 15°C) durante o ano todo, independentemente das variações climáticas da
+                        superfície
+                    </p>
+
+                </div>
+
+                <div class="ap-caixa-01">
+                    <h3> Geovita energy</h3>
+                    <img src="imagens/gm2.png" alt="imgem-02">
+                    <p>
+                        A Bomba de Calor Geotérmica transfere o calor capturado no solo e o eleva a uma temperatura mais
+                        alta através de um processo de compressão (semelhante ao princípio de uma geladeira, mas
+                        invertido).
+                    </p>
+
+                </div>
+
+                <div class="ap-caixa-01">
+                    <h3>Geovita energy</h3>
+                    <img src="imagens/gm3.png" alt="imagem-03">
+                    <P>
+                        O calor amplificado é então transferido para um circuito de água quente da casa. Esse sistema
+                        pode ser usado para climatizar o ambiente (piso radiante, ventilo-convectores) e, crucialmente,
+                        para aquecer a Água Quente Sanitária (AQS).
+                    </P>
+
+                </div>
+
+            </div>
+        </section>
