@@ -1,0 +1,127 @@
+footer {
+    border-top: 2px solid #000;
+    background-color: #7373737d;
+    padding: 1.5rem;
+}
+
+.div-pai-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+.div-logo-header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.div-logo-header h1 {
+    margin-top: 10px;
+}
+
+.div-list-header ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div-pai-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 25px;
+    padding: 1rem;
+}
+
+.div-slogan-footer p {
+    /* margin-left: 7px; */
+    color: blue;
+    font-size: 0.8rem;
+}
+
+.div-filha-loga {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.div-filha-loga h3 {
+    margin-top: 10px;
+}
+
+.div-link-footer {
+    border-right: 2px solid #000;
+    /* borda a direita*/
+    border-left: 2px solid #000;
+    /*borda a esquerda*/
+    padding: 0 3rem;
+    /*padding para espaçar a borda*/
+}
+
+
+.div-copy {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 15px;
+}
+
+/* .hr-footer {
+    margin: 25px 0px;
+} */
+
+<footer>
+        <!-- ------------------------------------------------ -->
+        <div class="div-pai-footer">
+
+            <div class="div-slogan-footer">
+
+                <div class="div-filha-loga">
+
+                    <img src="imagens/icon.png" alt="">
+
+                    <h3>geovita energy</h3>
+                </div>
+
+                <p>O calor da terra é a sua energia</p>
+
+            </div>
+
+            <!-- ------------------------------------------------ -->
+
+            <div class="div-link-footer">
+                <h3>NOSSOS LINKS</h3>
+                <ul>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Contatos</a></li>
+                    <li><a href="">Planos</a></li>
+                </ul>
+            </div>
+            <!-- ------------------------------------------------ -->
+
+            <div class="div-rede-footer">
+                <h3>REDES SOCIAIS</h3>
+                <ul>
+
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i>@geovitaenergy</a></li>
+
+                    <li><a href=""><i class="fa-brands fa-instagram"></i>@geovitaenergy</a></li>
+
+                    <li><a href=""><i class="fa-brands fa-square-whatsapp"></i>(11)98765-4321</a></li>
+
+                </ul>
+            </div>
+            <!-- ------------------------------------------------ -->
+        </div>
+
+        <!-- <hr class="hr-footer"> -->
+        <!-- ----------------------------------------------------- -->
+        <div class="div-copy">
+            <p>&copy;2025 GEOVITA ENERGY - Todos os direitos reservados</p>
+        </div>
+
+    </footer>
