@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/banner.css">
     <link rel="stylesheet" href="./css/oquee.css">
     <link rel="stylesheet" href="./css/aplicacoes.css">
+    <link rel="stylesheet" href="./css/comofunciona.css">
     <link rel="stylesheet" href="./css/vantagens.css">
     <link rel="stylesheet" href="./css/premiacoes.css">
     <link rel="stylesheet" href="./css/header-footer.css">
@@ -22,7 +23,7 @@
 </head>
 
 <body>
-    <!--Parte do Irailson-->
+    <!--HEADER-->
     <header>
         <div class="div-pai-header">
 
@@ -50,12 +51,12 @@
     </header>
 
     <main>
-        <!--Parte do Matheus-->
+        <!--BANNER-->
         <section class="banner">
             <h2>O calor da <span class="terra">Terra</span> <br> é a sua <span class="energia">Energia</span></h2>
         </section>
 
-        <!--Parte do Victor-->
+        <!--O QUE É-->
         <section class="oquee">
 
             <div class="titulo div1">
@@ -80,11 +81,68 @@
 
         </section>
 
-        <!--Parte do Joao-->
+        <!-- Seção Como Funciona -->
+        <section id="como-funciona">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Como Funciona?</h2>
+                    <p>A energia geotérmica pode ser capturada de várias maneiras. Clique nas abas abaixo para aprender
+                        sobre os três principais sistemas que usamos para levar o calor da Terra até você.</p>
+                </div>
+
+                <!-- Abas (Tabs) -->
+                <div class="tabs-container">
+                    <div class="tabs-nav">
+                        <button class="tab-button active" data-tab="coletor">
+                            ↔️ Coletor de Solo
+                        </button>
+                        <button class="tab-button" data-tab="poco">
+                            💧 Poço de Água
+                        </button>
+                        <button class="tab-button" data-tab="sonda">
+                            ⬇️ Sonda Geotérmica
+                        </button>
+                    </div>
+
+                    <!-- Conteúdo das Abas -->
+                    <div class="tabs-content-area">
+                        <div id="content-coletor" class="tab-content">
+                            <h3>Sistemas de Coletor de Solo (Horizontal)</h3>
+                            <p>
+                                O solo, a uma profundidade de 1,5 a 2 metros, armazena calor do sol e da chuva. Um
+                                sistema de tubulação horizontal enterrado absorve esse calor e o transfere para uma
+                                bomba de calor, que aquece ou resfria sua casa. É ideal para novas construções com
+                                espaço de terreno disponível.
+                            </p>
+                        </div>
+                        <div id="content-poco" class="tab-content hidden">
+                            <h3>Sistemas de Poço de Água (Aquífero)</h3>
+                            <p>
+                                Este sistema utiliza a água subterrânea de um aquífero, que mantém uma temperatura
+                                constante o ano todo (geralmente entre 10-14°C). O calor é retirado da água e usado pela
+                                bomba de calor. A água pode ser reinjetada no aquífero, tornando o processo altamente
+                                sustentável.
+                            </p>
+                        </div>
+                        <div id="content-sonda" class="tab-content hidden">
+                            <h3>Sistemas de Sonda Geotérmica (Vertical)</h3>
+                            <p>
+                                Perfeito para locais com espaço limitado. Sondas verticais são inseridas profundamente
+                                no solo (até 100m ou mais) para alcançar uma zona de temperatura constante. O calor
+                                geotérmico é usado o ano todo para aquecer a água que circula nas sondas, fornecendo
+                                energia de forma eficiente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--APLICAÇÕES-->
         <section class="aplicacoes">
             <div class="texto-">
                 <h3> Aplicacões da Energia Geotermica </h3> <br>
-                
+
                 <p>
                     Em residências e edifícios, as bombas de calor geotérmicas (GHP) utilizam a temperatura estável do
                     solo próximo à superfície (que é mais quente que o ar no inverno e mais frio no verão) para fornecer
@@ -130,36 +188,45 @@
             </div>
         </section>
 
-        <!--Parte do Rodrigo-->
-        <section class="vantagens">
-
-            <div class="vtg-caixa-01">
-                <h3>Baixo impacto ambiental:</h3>
-                <img src="" alt="">
-                <p> As usinas geotérmicas emitem poucos poluentes, não causam desmatamento e ocupam pouco espaço,
-                    preservando ecossistemas e a biodiversidade. </p>
+        <!-- Seção Vantagens -->
+        <section id="vantagens">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nossas Vantagens</h2>
+                    <p>Escolher a energia geotérmica traz benefícios significativos para o planeta e para o seu bolso.
+                        Veja os pilares que tornam nossa solução a escolha ideal para um futuro sustentável.</p>
+                </div>
+                <div class="grid-container-3">
+                    <div class="card">
+                        <span>🌍</span>
+                        <h3>Baixo Impacto Ambiental</h3>
+                        <p>
+                            Nossos sistemas geotérmicos protegem o meio ambiente. Ao usar o calor natural da Terra,
+                            preservamos os ecossistemas e a biodiversidade local.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span>♻️</span>
+                        <h3>Uso Sustentável dos Recursos</h3>
+                        <p>
+                            A água utilizada no processo pode ser reinjetada no aquífero sem qualquer perda de
+                            qualidade, garantindo um ciclo fechado e 100% sustentável.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <span>☀️</span>
+                        <h3>Energia Limpa e Estável</h3>
+                        <p>
+                            Fornecemos energia o ano todo, 24/7, independente do clima ou da estação. Isso contribui
+                            diretamente para a redução do aquecimento global.
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="vtg-caixa-01">
-                <h3>Uso sustentável dos recursos:</h3>
-                <img src="" alt="">
-                <p> A água utilizada pode ser reinjetada no subsolo, evitando desperdícios e mantendo o equilíbrio
-                    térmico natural da Terra.</p>
-            </div>
-
-            <div class="vtg-caixa-01">
-                <h3>Energia limpa e estável:</h3>
-                <img src="" alt="">
-                <p> Funciona o ano todo, de forma constante, silenciosa e segura, contribuindo para o desenvolvimento
-                    sustentável e a redução do aqucimento global.</p>
-            </div>
-
         </section>
 
-        <!--Parte do Rafael-->
 
-
-
+        <!--PREMIAÇÕES-->
         <section class="premiacoes">
 
             <div class="title-award">
@@ -211,7 +278,7 @@
 
     </main>
 
-    <!--Parte do Irailson-->
+    <!--FOOTER-->
     <footer>
         <!-- ------------------------------------------------ -->
         <div class="div-pai-footer">
@@ -263,6 +330,8 @@
         </div>
 
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

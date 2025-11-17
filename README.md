@@ -1,2 +1,2 @@
 # geovittaenergy
-Projeto para avaliação docurso
+Projeto para avaliação do curso

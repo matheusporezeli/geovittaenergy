@@ -155,3 +155,21 @@ input {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 }
+
+/* 1. VARIÁVEIS DE COR E CONFIGURAÇÕES GLOBAIS */
+:root {
+    --geo-fundo: #F8F7F4;
+    --geo-verde: #2A5741;
+    --geo-laranja: #D95F29;
+    --geo-texto: #333333;
+    --geo-secundario: #E6EBF0;
+    --white: #FFFFFF;
+    --gray-300: #d1d5db;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+}
+
+/* Classe utilitária para esconder/mostrar (usada pelo JS) */
+.hidden {
+    display: none;
+}

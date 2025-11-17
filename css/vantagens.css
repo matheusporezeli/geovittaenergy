@@ -1,21 +1,30 @@
-.vantagens {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    gap: 20px;
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 coluna em mobile */
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
-.vtg-caixa-01 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid rgba(2, 2, 2, 0.486);
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.658);
-    background-color: rgba(255, 255, 255, 0.644);
-    padding: 5px;
-    gap: 20px;
-    width: 23%;
-    height: 20rem;
+.grid-container-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.card span {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--geo-verde);
+    margin: 1rem 0;
 }

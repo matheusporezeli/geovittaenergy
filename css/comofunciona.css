@@ -1,0 +1,53 @@
+/* "Como Funciona" & "Prêmios" - Fundos */
+#como-funciona,
+#premios {
+    background-color: var(--geo-secundario);
+}
+
+/* "Como Funciona" - Abas (Tabs) */
+.tabs-container {
+    max-width: 896px; /* 4xl no Tailwind */
+    margin: 3rem auto 0 auto;
+}
+
+.tabs-nav {
+    display: flex;
+    border-bottom: 1px solid var(--gray-300);
+    flex-wrap: wrap; /* Para mobile */
+}
+
+.tab-button {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--gray-500);
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s;
+}
+
+.tab-button:hover {
+    color: var(--geo-verde);
+}
+
+.tab-button.active {
+    color: var(--geo-verde);
+    border-bottom-color: var(--geo-laranja);
+}
+
+.tabs-content-area {
+    margin-top: 2rem;
+}
+
+.tab-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--geo-verde);
+    margin-bottom: 1rem;
+}
+
+.tab-content p {
+    font-size: 1.1rem;
+}
