@@ -5,17 +5,23 @@
 
 .oquee .div-pai{
     justify-content: center;
-    flex-direction: column;
+
     align-items: center;
     display: flex;
     gap: 1.5rem;
 }
 .oquee .titulo h2{
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+
 
 .oquee .div-lorem p{
     font-size: 1.5rem;
+    width: 500px;
+    height: 10%;
 }
 
 .oquee .Ilustração {
@@ -25,7 +31,7 @@
     background-position: center;
     background-size: cover;
     height: 300px;
-    width: 500px;
+    width: 500px;/*estava em 500px*/
     box-shadow: 0 0 5px #000;
 }
 
@@ -34,5 +40,5 @@
     align-items: center;
     display: flex;
     padding: 10px;
-    width: 85%;
+
 }
