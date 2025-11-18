@@ -12,8 +12,10 @@
 }
 
 .div-img-historia p {
-    width: 800px;
+    width: 600px;
     text-align: center;
+    line-height: 27px;
+    font-size: 1.2rem;
 }
 
 .div-img-historia img {
