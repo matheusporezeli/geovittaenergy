@@ -13,11 +13,11 @@ h6 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 h3 {
@@ -57,4 +57,19 @@ span {
 .section-header p {
     font-size: 1.125rem;
     margin-top: 1.5rem;
+}
+
+/*Menu Mobile*/
+
+.nav-menu {
+    display: none;
+}
+
+.menu-btn {
+    i {
+        font-size: 1.5rem;
+    }
+
+    cursor: pointer;
+    display: none;
 }
