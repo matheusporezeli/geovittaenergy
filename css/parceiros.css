@@ -1,0 +1,19 @@
+.parceiros{
+    height: 300px;
+}
+.parceiros1{
+
+}
+.div-papai{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.div-par{
+    width: 11.25rem;
+    height: 11.25rem;
+    background-color: green;
+}
+.parceiros1{
+    background-image: url(//imagens/parceiro1.png);
+}
