@@ -1,7 +1,8 @@
 footer {
     border-top: 2px solid #000;
-    background-color: #7373737d;
+    background-color: #16425f;
     padding: 1.5rem;
+    color: #fff;
 }
 
 .div-pai-header {
@@ -37,23 +38,11 @@ footer {
     padding: 1rem;
 }
 
-.div-slogan-footer {
-    text-align: right;
-}
-
-.div-slogan-footer p {
-    color: blue;
-}
-
 .div-filha-loga {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.div-filha-loga h3 {
-    margin-top: 10px;
 }
 
 .div-link-footer {
@@ -67,8 +56,6 @@ footer {
 
 
 .div-copy {
-    /* display: flex;
-    justify-content: center; */
     text-align: center;
     border-top: 1px solid #000;
     padding-top: 15px;

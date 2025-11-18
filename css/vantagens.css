@@ -1,6 +1,24 @@
+.vantagens {
+    background-color: var(--geo-verde);
+}
+
+/* 2. LAYOUT PRINCIPAL */
+.container {
+    padding: 2rem;
+}
+
+/* Cabeçalho Padrão das Seções */
+.section-header {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 3rem;
+}
+
+/*Padrão Grid Container*/
 .grid-container-3 {
     display: grid;
-    grid-template-columns: 1fr; /* 1 coluna em mobile */
+    grid-template-columns: 1fr;
+    /* 1 coluna em mobile */
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -9,7 +27,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+/*Padrão Cards*/
 .card {
+    min-height: 250px;
+    width: 300px;
     background-color: var(--white);
     padding: 2rem;
     border-radius: 0.5rem;
@@ -20,11 +41,4 @@
 .card span {
     font-size: 3rem;
     line-height: 1;
-}
-
-.card h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--geo-verde);
-    margin: 1rem 0;
 }
