@@ -1,19 +1,59 @@
 .parceiros{
-    height: 300px;
+    padding: 5rem 0;
 }
-.parceiros1{
-
+.div-que-tem-titulo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
 }
 .div-papai{
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .div-par{
-    width: 11.25rem;
-    height: 11.25rem;
-    background-color: green;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.alone{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.alone2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
 }
 .parceiros1{
-    background-image: url(//imagens/parceiro1.png);
+    background-image: url(../imagens/parceiro1.png);
+}
+.parceiros2{
+    background-image: url(../imagens/parceiro2.png);
+}
+.parceiros3{
+    background-image: url(../imagens/parceiro3.png);
+}
+.parceiros4{
+    background-image: url(../imagens/parceiro4.png);
+}
+.parceiros5{
+    background-image: url(../imagens/parceiro5.png);
+}
+.parceiros6{
+    background-image: url(../imagens/parceiro6.png);
+}
+.parceiros7{
+    background-image: url(../imagens/parceiro7.png);
+}.parceiros8{
+    background-image: url(../imagens/parceiro8.png);
 }
