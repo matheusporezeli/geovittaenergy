@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header-footer.css">
     <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="css/pacotes.css">
+    <link rel="stylesheet" href="../css/pacotes.css">
     <link rel="shortcut icon" href="../imagens/icon.png" type="image/x-icon">
     <title>GeoVitta Energy</title>
 </head>
@@ -46,6 +46,7 @@
 
         <div class="pacotes">
 
+
             <div class="title">
                 <h2>pacotes de serviço</h2>
             </div>
@@ -54,31 +55,52 @@
             <div class="cxs">
 
                 <div class="bx conteudo1">
-                    <h3>Básico</h3>
-                    <ul>
-                        <li>instalação do Sistema</li>
-                        <li>Tubulação Horizontal</li>
-                        <li>Termostato Inteligente</li>
-                    </ul>
+
+                    <div class="cnfo">
+                        <img src="../imagens/home-button.png" alt="selo">
+                    </div>
+
+
+                    <div class="txt-ul">
+                        <h3>Básico</h3>
+                        <ul>
+                            <li>instalação do Sistema</li>
+                            <li>Tubulação Horizontal</li>
+                            <li>Termostato Inteligente</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="bx conteudo2">
-                    <h3>Avançado</h3>
-                    <ul>
-                        <li>Bomba de Calor de Alta Efficiéncia</li>
-                        <li>Monitoramento Remoto</li>
-                        <li>Garantia Estendida</li>
-                    </ul>
+
+                    <div class="cnfo">
+                        <img src="../imagens/diligence.png" alt="selo">
+                    </div>
+
+                    <div class="txt-ul">
+                        <h3>Avançado</h3>
+                        <ul>
+                            <li>Bomba de Calor de Alta Efficiéncia</li>
+                            <li>Monitoramento Remoto</li>
+                            <li>Garantia Estendida</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="bx conteudo3">
 
-                    <h3>Premium +</h3>
-                    <ul>
-                        <li>Manutenção Preventio Anual</li>
-                        <li>Bateria Astnarialagamo</li>
-                        <li>Controle Climático Zonal</li>
-                    </ul>
+                    <div class="cnfo">
+                        <img src="../imagens/premium.png" alt="selo">
+                    </div>
+
+                    <div class="txt-ul">
+                        <h3>Premium +</h3>
+                        <ul>
+                            <li>Manutenção Preventio Anual</li>
+                            <li>Bateria Astnarialagamo</li>
+                            <li>Controle Climático Zonal</li>
+                        </ul>
+                    </div>
                 </div>
 
             </div>
@@ -90,39 +112,43 @@
 
             <form action="">
 
-                <label for="">
-                    <input type="text">
-                </label>
+                <div class="inpt">
+                    <label for="">Nome:
+                        <input type="text" placeholder="Digite Seu Nome">
+                    </label>
+                </div>
 
-                <label for="">
-                    <input type="number">
-                </label>
+                <div class="inpt">
+                    <label for="">Telefone:
+                        <input type="number" placeholder="(XX) XXXXXXX-XXX">
+                    </label>
+                </div>
 
-                <label for="">
-                    <input type="email">
-                </label>
+                <div class="inpt">
+                    <label for="">E-Mail:
+                        <input type="email" placeholder="Digite Seu E-Mail">
+                    </label>
+                </div>
 
                 <div class="list-pacote">
 
-                    <div>
-                        <input type="radio" id="" name="drone" value="Básico" checked />
-                        <label for="basico">Básico</label>
-                    </div>
+                    <label for="">Selecione o Plano:
+                        <select name="pacotes" id="" class="select">
 
-                    <div>
-                        <input type="radio" id="" name="drone" value="Avançado" />
-                        <label for="avancado">Avançado</label>
-                    </div>
+                            <option value="basico">Básico</option>
 
-                    <div>
-                        <input type="radio" id="" name="drone" value="Premium" />
-                        <label for="Premium">Premium</label>
-                    </div>
+                            <option value="avancado">Avançado</option>
+
+                            <option value="Premium">Premium +</option>
+
+                        </select>
+                    </label>
 
                 </div>
 
                 <div class="texto">
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" id="" rows="10" cols="50"
+                        placeholder="Deixe Sua Duvida Aqui e Entraremos Em Contato"></textarea>
                 </div>
 
                 <div class="btn">

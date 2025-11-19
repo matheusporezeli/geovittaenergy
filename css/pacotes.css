@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     padding: 2rem;
     gap: 50px;
@@ -12,14 +13,47 @@
     flex-direction: column;
 }
 
-.bx{
+.cnfo {
     display: flex;
-    flex-direction: column;
+    width: 50px;
+}
+
+.cnfo img {
+    width: 50px;
+}
+
+.cxs {
+    margin: 20px;
+}
+
+.bx {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: flex;
     align-items: center;
-    background-color: rgba(255, 0, 0, 0.568);
-    width: 300px;
-    margin: 20px ;
-    height: 200px;
+    padding: 10px;
+    width: 500px;
+    gap: 20px;
+    height: 100px;
+    margin: 20px;
+}
+
+.conteudo1 {
+ background-color: rgb(255, 255, 255);
+}
+
+.conteudo2 {
+    color: white;
+ background-color: rgb(0, 0, 0);
+}
+
+.conteudo3 {
+ background-color: gold;
+}
+
+
+.bx  h3 {
+    margin-bottom: 10px;
 }
 
 
@@ -27,9 +61,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
+    padding-left: 3rem;
+    border-left: 1px solid black;
+    width: 500px;
+    height: 450px;
 }
 
 form {
@@ -37,4 +72,30 @@ form {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+
+.inpt input {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+}
+
+.select, option{
+    outline: none;
+    width: 100px;
+}
+
+.texto textarea {
+    outline: none;
+    width: 350px;
+    height: 150px;
+    resize: none;
+}
+
+.btn input {
+    background-color: rgba(255, 0, 0, 0.829);
+    color: white;
+    width: 150px;
+    height: 25px;
 }
