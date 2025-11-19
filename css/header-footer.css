@@ -1,3 +1,14 @@
+header {
+    color: #fff;
+    background-color: #16425F;
+    border-bottom: 2px solid #16425F;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 80px;
+}
+
 footer {
     border-top: 2px solid #000;
     background-color: #16425f;

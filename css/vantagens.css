@@ -16,8 +16,10 @@
 
 /*Padrão Grid Container*/
 .grid-container-3 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     /* 1 coluna em mobile */
     gap: 2rem;
     margin-top: 3rem;
@@ -29,7 +31,7 @@
 
 /*Padrão Cards*/
 .card {
-    min-height: 250px;
+    height: 300px;
     width: 300px;
     background-color: var(--white);
     padding: 2rem;

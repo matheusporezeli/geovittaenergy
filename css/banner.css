@@ -41,6 +41,7 @@
     .banner {
         background-image: url(../imagens/banner-mobile.png);
         padding: 4rem 1rem;
+        height: 180px;
         h2 {
             font-size: 2.5rem;
         }
