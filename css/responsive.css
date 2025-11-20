@@ -1,6 +1,6 @@
 @media (max-width:500px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .div-pai-header {
@@ -32,7 +32,7 @@
         /*ALTURA DO MENU*/
         height: 310px;
         background-color: #16425f;
-        transition: right 1s ease-in-out;
+        transition: right 0.5s ease-in-out;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -47,7 +47,14 @@
 
     .ul-list2 {
         flex-direction: column;
-        gap: 10px;
         padding: 1rem 0;
-      }
+    }
+
+    .div-list-header ul {
+        gap: 2rem;
+    }
+
+    .div-list-header a {
+        font-size: 2rem;
+    }
 }

@@ -3,28 +3,28 @@ const tabButtons = document.querySelectorAll('.tab-button');
 const tabContents = document.querySelectorAll('.tab-content');
 
 tabButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const tabId = button.dataset.tab;
+  button.addEventListener('click', () => {
+    const tabId = button.dataset.tab;
 
-        // Remove a classe 'active' de todos os botões
-        tabButtons.forEach(btn => {
-            btn.classList.remove('active');
-        });
-
-        // Adiciona 'active' apenas ao botão clicado
-        button.classList.add('active');
-
-        // Esconde todos os conteúdos
-        tabContents.forEach(content => {
-            content.classList.add('hidden');
-        });
-
-        // Mostra o conteúdo correspondente
-        const activeContent = document.getElementById(`content-${tabId}`);
-        if (activeContent) {
-            activeContent.classList.remove('hidden');
-        }
+    // Remove a classe 'active' de todos os botões
+    tabButtons.forEach(btn => {
+      btn.classList.remove('active');
     });
+
+    // Adiciona 'active' apenas ao botão clicado
+    button.classList.add('active');
+
+    // Esconde todos os conteúdos
+    tabContents.forEach(content => {
+      content.classList.add('hidden');
+    });
+
+    // Mostra o conteúdo correspondente
+    const activeContent = document.getElementById(`content-${tabId}`);
+    if (activeContent) {
+      activeContent.classList.remove('hidden');
+    }
+  });
 });
 
 // Menu Hamburguer
@@ -75,4 +75,15 @@ menuBtn.addEventListener('click', () => {
     menuIcon.classList.remove('fa-xmark');
     menuIcon.classList.add('fa-bars');
   }
+});
+
+// TYPED.JS
+
+const typed = new Typed("#typed", {
+  strings: ["O calor da <span class=terra>Terra</span> é a sua <span class=energia>Energia</span>"],
+  typeSpeed: 80,
+  backSpeed: 60,
+  backDelay: 1200,
+  loop: true,
+  showCursor: false,
 });
