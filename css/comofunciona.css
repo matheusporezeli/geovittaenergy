@@ -6,14 +6,15 @@
 
 /* "Como Funciona" - Abas (Tabs) */
 .tabs-container {
-    max-width: 896px; /* 4xl no Tailwind */
+    max-width: 70%;
     margin: 3rem auto 0 auto;
+    line-height: 2;
 }
 
 .tabs-nav {
     display: flex;
-    border-bottom: 1px solid var(--gray-300);
-    flex-wrap: wrap; /* Para mobile */
+    flex-wrap: wrap;
+    border-bottom: 1px solid #737373;
 }
 
 .tab-button {
@@ -23,31 +24,19 @@
     cursor: pointer;
     background: none;
     border: none;
-    color: var(--gray-500);
     border-bottom: 4px solid transparent;
     transition: all 0.3s;
 }
 
 .tab-button:hover {
-    color: var(--geo-verde);
+    color: #737373;
 }
 
 .tab-button.active {
-    color: var(--geo-verde);
-    border-bottom-color: var(--geo-laranja);
+    olor: #737373;
+    border-bottom-color: #16425f;
 }
 
 .tabs-content-area {
     margin-top: 2rem;
-}
-
-.tab-content h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--geo-verde);
-    margin-bottom: 1rem;
-}
-
-.tab-content p {
-    font-size: 1.1rem;
 }

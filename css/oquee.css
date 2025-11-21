@@ -1,44 +1,33 @@
-.oquee {
-    padding: 2rem;
+.oque {
+    padding: 5rem 0;
     text-align: center;
 }
 
-.oquee .div-pai{
-    justify-content: center;
-
+.oque-container {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    display: flex;
-    gap: 1.5rem;
-}
-.oquee .titulo h2{
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
-
-.oquee .div-lorem p{
-    font-size: 1.5rem;
-    width: 500px;
-    height: 10%;
+.oque-txt {
+    display: flex;  
+    flex-direction: column;
+    width: 45%;
 }
 
-.oquee .Ilustração {
+.oque-txt p{
+    line-height: 2;
+}
+
+.oque-img {
     /* background-image: url(../imagens/ilustraçao.jpg); */
     background-image: url(../imagens/Ilustracao_teste.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
-    width: 500px;/*estava em 500px*/
+    width: 45%;
     box-shadow: 0 0 5px #000;
-}
-
-.oquee .div1 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 10px;
-
 }
