@@ -57,4 +57,86 @@
     .div-list-header a {
         font-size: 2rem;
     }
+
+    .parc-logo {
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(4, 150px);
+    }
+
+    .container {
+        padding: 3rem 1rem;
+    }
+
+    .section-header {
+        width: 90%;
+    }
+
+    .oque {
+        padding: 5rem 1.5rem;
+    }
+
+    .oque-container {
+        flex-direction: column;
+    }
+
+    .oque-txt,
+    .oque-img {
+        width: 95%;
+    }
+
+    .tabs-container {
+        width: 100%;
+        margin: 3rem auto;
+    }
+
+    .tabs-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pct-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .pct-box {
+        width: 300px;
+    }
+
+    .divisoria {
+        margin: 3rem 0 1rem;
+        border: 1px solid #000;
+        width: 100%;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .contato {
+        gap: 15px;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .div-pai-footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .div-link-footer {
+        width: 100%;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        border-left: 0;
+        border-right: 0;
+        padding: 1.5rem 0;
+        text-align: center;
+    }
 }

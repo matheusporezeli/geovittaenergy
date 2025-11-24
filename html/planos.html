@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header-footer.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/pacotes.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="shortcut icon" href="../imagens/icon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/5e45ee013f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <title>GeoVitta Energy</title>
 </head>
 
@@ -58,38 +58,32 @@
     </header>
 
 
-    <section class="pacotes-form">
+    <section class="pacotes container">
+        <div class="section-header">
+            <h2>pacotes de serviço</h2>
+        </div>
 
-        <div class="pacotes">
+        <div class="pct-container">
 
+            <div class="pct-card">
 
-            <div class="title">
-                <h2>pacotes de serviço</h2>
-            </div>
-
-
-            <div class="cxs">
-
-                <div class="bx conteudo1">
-
-                    <div class="cnfo">
+                <div class="pct-box conteudo1">
+                    <div class="box-logo">
                         <img src="../imagens/home-button.png" alt="selo">
                     </div>
-
-
                     <div class="txt-ul">
                         <h3>Básico</h3>
                         <ul>
-                            <li>instalação do Sistema</li>
+                            <li>Instalação do Sistema</li>
                             <li>Tubulação Horizontal</li>
                             <li>Termostato Inteligente</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="bx conteudo2">
+                <div class="pct-box conteudo2">
 
-                    <div class="cnfo">
+                    <div class="box-logo">
                         <img src="../imagens/diligence.png" alt="selo">
                     </div>
 
@@ -103,9 +97,9 @@
                     </div>
                 </div>
 
-                <div class="bx conteudo3">
+                <div class="pct-box conteudo3">
 
-                    <div class="cnfo">
+                    <div class="box-logo">
                         <img src="../imagens/premium.png" alt="selo">
                     </div>
 
@@ -121,59 +115,52 @@
 
             </div>
 
-        </div>
+            <div class="divisoria"></div>
 
+            <div class="formulario">
+                <form id="contato" action="" class="contato">
+                    <div class="contato-input">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" name="nome" id="nome" placeholder="Seu nome completo">
+                        <small id="textNome"></small>
+                    </div>
 
-        <div class="formulario">
+                    <div class="contato-input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="email@example.com.br">
+                        <small id="textEmail"></small>
+                    </div>
 
-            <form action="">
+                    <div class="contato-input">
+                        <label for="tel">Telefone</label>
+                        <input type="text" name="tel" onkeyup="formatarTelefone(this)" id="telefone"
+                            placeholder="(XX) XXXXX-XXXX" maxlength="15">
+                        <small id="textTel"></small>
+                    </div>
 
-                <div class="inpt">
-                    <label for="">Nome:
-                        <input type="text" placeholder="Digite Seu Nome">
-                    </label>
-                </div>
-
-                <div class="inpt">
-                    <label for="">Telefone:
-                        <input type="number" placeholder="(XX) XXXXXXX-XXX">
-                    </label>
-                </div>
-
-                <div class="inpt">
-                    <label for="">E-Mail:
-                        <input type="email" placeholder="Digite Seu E-Mail">
-                    </label>
-                </div>
-
-                <div class="list-pacote">
-
-                    <label for="">Selecione o Plano:
-                        <select name="pacotes" id="" class="select">
-
+                    <div class="contato-input">
+                        <label for="">Escolha seu plano:</label>
+                        <select name="plano-opt" required>
                             <option value="basico">Básico</option>
-
                             <option value="avancado">Avançado</option>
-
-                            <option value="Premium">Premium +</option>
-
+                            <option value="premium">Premium</option>
                         </select>
-                    </label>
+                    </div>
 
-                </div>
 
-                <div class="texto">
-                    <textarea name="" id="" rows="10" cols="50"
-                        placeholder="Deixe Sua Duvida Aqui e Entraremos Em Contato"></textarea>
-                </div>
 
-                <div class="btn">
-                    <input type="submit" value="Contratar">
-                </div>
+                    <div class="contato-input">
+                        <label for="text">Mensagem</label>
+                        <textarea name="" id="text" class="contato-text"
+                            placeholder="Digite o motivo do seu contato"></textarea>
+                    </div>
 
-            </form>
+                    <input type="submit" value="Enviar" class="contato-btn">
+                    <small id="textForm"></small>
+                </form>
+
+            </div>
         </div>
-
     </section>
 
 
@@ -233,6 +220,7 @@
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="../js/contato.js"></script>
 </body>
 
 </html>

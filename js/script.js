@@ -80,8 +80,8 @@ menuBtn.addEventListener('click', () => {
 // TYPED.JS
 
 const typed = new Typed("#typed", {
-  strings: ["O calor da <span class=terra>Terra</span> é a sua <span class=energia>Energia</span>"],
-  typeSpeed: 80,
+  strings: ['O calor da <span class=terra>Terra</span> é a sua <span class=energia>Energia</span>'],
+  typeSpeed: 100,
   backSpeed: 60,
   backDelay: 1200,
   loop: true,

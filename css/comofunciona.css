@@ -1,7 +1,7 @@
 /* "Como Funciona" & "Prêmios" - Fundos */
 #como-funciona,
 #premios {
-    background-color: var(--geo-secundario);
+    background-color: var(--sec-bcg);
 }
 
 /* "Como Funciona" - Abas (Tabs) */
@@ -33,7 +33,7 @@
 }
 
 .tab-button.active {
-    olor: #737373;
+    color: #737373;
     border-bottom-color: #16425f;
 }
 

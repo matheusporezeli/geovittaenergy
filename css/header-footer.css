@@ -10,6 +10,7 @@ header {
 }
 
 footer {
+    margin-top: 2rem;
     border-top: 2px solid #000;
     background-color: #16425f;
     padding: 1.5rem;

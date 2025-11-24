@@ -1,34 +1,83 @@
-.historia hr {
-    background-color: black;
-    width: 300px;
-    height: 2px;
-}
-
-.div-text-historia h2{
+.hist-cont {
     display: flex;
-    justify-content: center;
-    margin-bottom: 0px;
-    padding: 3rem 2rem 0rem 2rem;
-}
-
-.div-img-historia p {
-    width: 600px;
-    text-align: center;
-    line-height: 27px;
-    font-size: 1.2rem;
-}
-
-.div-img-historia img {
-    border-radius: 10px;
-    width: 400px;
-    height: 300px;
-}
-
-.div-img-historia {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    padding: 2rem;
-    gap: 80px;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.visao-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.strong-text {
+    font-weight: 700;
+}
+
+/*Linha do Tempo (Timeline)*/
+.timeline {
+    margin: 50px 0;
+    padding: 0;
+}
+
+.timeline h3 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Linha vertical */
+.timeline ul {
+    border-left: 3px solid #ccc;
+    position: relative;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.timeline-ano {
+    display: inline-block;
+    background-color: #16425F;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.timeline-descricao {
+    margin-top: 5px;
+    padding-left: 15px;
+    /* Alinhamento com o texto após o ano */
+    color: #555;
+}
+
+/* Bolinhas no Início do Item (para a linha do tempo) */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    /* Alinha o círculo sobre a linha vertical */
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #16425F;
+    /* Borda da cor de fundo para destacar */
+    border: 3px solid #f8f8f8;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+/*Resumo/Chamada de Encerramento*/
+.sumario-text {
+    text-align: center;
+    padding: 1.5rem;
+    /* Um leve fundo cinza para destaque */
+    background-color: #dcdcdc;
+    border-radius: 10px;
 }

@@ -1,101 +1,114 @@
-.pacotes-form {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 2rem;
-    gap: 50px;
-}
-
 .pacotes {
     display: flex;
     flex-direction: column;
-}
-
-.cnfo {
-    display: flex;
-    width: 50px;
-}
-
-.cnfo img {
-    width: 50px;
-}
-
-.cxs {
-    margin: 20px;
-}
-
-.bx {
-    border: 1px solid black;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: 500px;
-    gap: 20px;
-    height: 100px;
-    margin: 20px;
-}
-
-.conteudo1 {
- background-color: rgb(255, 255, 255);
-}
-
-.conteudo2 {
-    color: white;
- background-color: rgb(0, 0, 0);
-}
-
-.conteudo3 {
- background-color: gold;
-}
-
-
-.bx  h3 {
-    margin-bottom: 10px;
-}
-
-
-.formulario {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    padding-left: 3rem;
-    border-left: 1px solid black;
-    width: 500px;
-    height: 450px;
+    align-items: center;
 }
 
-form {
+.pct-container {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+/*PACOTES*/
+
+.pct-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.inpt input {
+.pct-box {
     display: flex;
     align-items: center;
-    width: 300px;
-    height: 20px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    gap: 20px;
+    width: 400px;
 }
 
-.select, option{
-    outline: none;
-    width: 100px;
+.box-logo img {
+    width: 50px;
 }
 
-.texto textarea {
-    outline: none;
-    width: 350px;
-    height: 150px;
+.conteudo1 {
+    background-color: #DDFFFF;
+}
+
+.conteudo2 {
+    background-color: #A2D5D5;
+}
+
+.conteudo3 {
+    color: #fff;
+    background-color: #378080;
+}
+
+
+.txt-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.txt-ul ul {
+    line-height: 1.5;
+}
+
+/*DIVISORIA*/
+.divisoria {
+    border: 1px solid #000;
+    height: 100%;
+}
+
+/*Contato*/
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.contato-input {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fonte-mini);
+    font-weight: 900;
+    gap: 0.5rem;
+}
+
+.contato-input input {
+    padding: 5px;
+}
+
+.contato-text {
+    height: 200px;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
     resize: none;
 }
 
-.btn input {
-    background-color: rgba(255, 0, 0, 0.829);
-    color: white;
-    width: 150px;
-    height: 25px;
+.contato-btn {
+    font-weight: 700;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: #16425f;
+    cursor: pointer;
+    color: #fff;
 }
+
+.contato-btn:hover {
+    background-color: #226490;
+}
+
