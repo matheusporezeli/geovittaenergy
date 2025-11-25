@@ -31,7 +31,6 @@
 /* Linha vertical */
 .timeline ul {
     border-left: 3px solid #ccc;
-    position: relative;
 }
 
 .timeline-item {
@@ -64,13 +63,12 @@
     left: -10px;
     /* Alinha o círculo sobre a linha vertical */
     top: 0;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     background-color: #16425F;
     /* Borda da cor de fundo para destacar */
-    border: 3px solid #f8f8f8;
+    border: 5px solid #f8f8f8;
     border-radius: 50%;
-    z-index: 10;
 }
 
 /*Resumo/Chamada de Encerramento*/

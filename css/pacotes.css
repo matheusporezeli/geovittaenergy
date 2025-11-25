@@ -21,23 +21,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .pct-box {
     display: flex;
+    gap: 20px;
     align-items: center;
     border: 1px solid black;
     border-radius: 0.5rem;
     padding: 1rem;
-    gap: 20px;
-    width: 400px;
+    width: 350px;
 }
 
 .box-logo img {
     width: 50px;
 }
 
+.txt-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.txt-ul ul {
+    line-height: 1.5;
+}
+
+/*COR DE FUNDO DE CADA PLANO*/
 .conteudo1 {
     background-color: #DDFFFF;
 }
@@ -51,21 +62,10 @@
     background-color: #378080;
 }
 
-
-.txt-ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.txt-ul ul {
-    line-height: 1.5;
-}
-
 /*DIVISORIA*/
 .divisoria {
     border: 1px solid #000;
-    height: 100%;
+    height: 90%;
 }
 
 /*Contato*/
@@ -82,12 +82,10 @@
 .contato-input {
     display: flex;
     flex-direction: column;
-    font-size: var(--fonte-mini);
-    font-weight: 900;
     gap: 0.5rem;
 }
 
-.contato-input input {
+.plano-opt {
     padding: 5px;
 }
 
@@ -96,6 +94,7 @@
     padding: 12px;
     box-sizing: border-box;
     border-radius: 4px;
+    /*TIRA A OPÇÃO DE REDIMENSIONAR A ÁREA DE TEXTO*/
     resize: none;
 }
 

@@ -1,9 +1,12 @@
 // Lógica das Abas (Tabs)
+// Onde vou clicar para mudar as abas
 const tabButtons = document.querySelectorAll('.tab-button');
+// O que vai ser mostrado
 const tabContents = document.querySelectorAll('.tab-content');
 
 tabButtons.forEach(button => {
   button.addEventListener('click', () => {
+    //Descobre qual o botão clicado pelo data-tab
     const tabId = button.dataset.tab;
 
     // Remove a classe 'active' de todos os botões
@@ -14,12 +17,12 @@ tabButtons.forEach(button => {
     // Adiciona 'active' apenas ao botão clicado
     button.classList.add('active');
 
-    // Esconde todos os conteúdos
+    // Esconde todos os conteúdos que não quero
     tabContents.forEach(content => {
       content.classList.add('hidden');
     });
 
-    // Mostra o conteúdo correspondente
+    // Mostra o conteúdo correspondente com o data-tab do botão
     const activeContent = document.getElementById(`content-${tabId}`);
     if (activeContent) {
       activeContent.classList.remove('hidden');

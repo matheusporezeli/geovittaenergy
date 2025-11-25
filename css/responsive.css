@@ -55,6 +55,7 @@
     }
 
     .parc-logo {
+        /*ALTERANDO OS PARCEIROS PARA 2 COLUNAS E 4 LINHAS*/
         grid-template-columns: repeat(2, 150px);
         grid-template-rows: repeat(4, 150px);
     }

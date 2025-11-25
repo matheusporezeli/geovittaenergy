@@ -1,8 +1,9 @@
+//CRIA AS VARIÁVEIS A PARTIR DO ID DE CADA INPUT
+let form = document.getElementById("contato");
 let nome = document.getElementById("nome");
 let email = document.getElementById("email");
 let tel = document.getElementById("telefone");
 let text = document.getElementById("text");
-let form = document.getElementById("contato");
 let textForm = document.getElementById("textForm");
 let textNome = document.getElementById("textNome");
 let textEmail = document.getElementById("textEmail");
@@ -10,7 +11,10 @@ let textTel = document.getElementById("textTel");
 
 // Validação do formulário de contato
 form.addEventListener("submit", (e) => {
+    //FAZ COM QUE O ENVIAR NÃO RESETE O FORMULÁRIO
     e.preventDefault();
+
+    //SE OS CAMPOS ESTÃO VAZIOS APARECE A MENSAGEM ENTRE ""
     if (email.value == "" && nome.value == "" && tel.value == "" && text.value == "") {
         textForm.textContent = "Você precisa preencher todos os campos!";
     } else if (
@@ -22,7 +26,7 @@ form.addEventListener("submit", (e) => {
         nome.value.length >= 3 &&
         tel.value.length == 15
     ) {
-        //Função para armazenar no localStorage em formato de lista de objetos
+        //Função para armazenar no localStorage(HISTÓRICO DO AVEGADOR) em formato de lista de objetos
         salvarEmLista("Contatos", { Nome: nome.value, Email: email.value, Telefone: tel.value, Mensagem: text.value })
         function salvarEmLista(chave, objeto) {
             // Recupera a lista existente no localStorage pela chave
@@ -56,6 +60,7 @@ form.addEventListener("submit", (e) => {
 
 // Função de validação de nome
 function validaNome(nome) {
+    // REGEX(PADRÃO) DE NOMES
     let nomePattern = /^[a-zA-Z\s]+$/;
     return nomePattern.test(nome);
 }
